@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(241, 158, 158);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(32, 23, 92);
+}
+header {
+    background-color: cornflowerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: azure;
+}
+header a{
+    color: azure;
+}
+footer{
+    background-color: indigo;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: azure;
+}
+footer a{
+    color: azure;
+}
+article {
+    color: rgb(32, 23, 92);
+}
