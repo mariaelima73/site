@@ -3,6 +3,11 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     color: rgb(32, 23, 92);
+    text-align: justify;
+}
+body a{
+    color: rgb(68, 54, 160);
+    text-decoration: none;   
 }
 header {
     background-color: cornflowerblue;
@@ -10,8 +15,9 @@ header {
     font-size: 20px;
     color: azure;
 }
-header a{
+header a {
     color: azure;
+    text-decoration: none;
 }
 footer{
     background-color: indigo;
@@ -19,9 +25,11 @@ footer{
     font-size: 20px;
     color: azure;
 }
-footer a{
+footer a {
     color: azure;
+    text-decoration: none; 
 }
-article {
-    color: rgb(32, 23, 92);
+article a {
+    background-color: azure;
+    color: rgb(68, 54, 160);
 }
