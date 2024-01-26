@@ -1,35 +1,59 @@
 body{
-    background-color: rgb(241, 158, 158);
+    background-color: rgb(197, 139, 252);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-    color: rgb(32, 23, 92);
-    text-align: justify;
+    color: rgb(68, 54, 160);
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
 }
 body a{
     color: rgb(68, 54, 160);
     text-decoration: none;   
+}
+main {
+    padding: 20px;
 }
 header {
     background-color: cornflowerblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: azure;
+    padding: 20px;
 }
 header a {
     color: azure;
     text-decoration: none;
 }
 footer{
-    background-color: indigo;
+    background-color: rgb(15, 62, 150);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: azure;
+    padding: 20px;
 }
 footer a {
     color: azure;
     text-decoration: none; 
 }
+article {
+    background-color: rgb(255, 212, 212);
+    padding: 2px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
 article a {
     background-color: azure;
     color: rgb(68, 54, 160);
+    padding: 8px;
+}
+li{
+    list-style: none;
+}
+.titulo {
+    text-decoration: underline;
+}
+.principal {
+    font-style: italic;
+    font-size: 16px;
 }
