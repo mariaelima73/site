@@ -11,9 +11,9 @@
 <!--Cabeçalho-->
 <header>
   <!--Menu de navegação-->
-  <nav>
+  <nav class="navegacao">
     <img src="home.jpg">
-  <ul>
+  <ul class="menu">
     <li><a href="index.html">Início</a></li>
     <li><a href="materias.html">Matérias</a></li>
     <li><a href="contato.html">Contato</a></li>
@@ -26,12 +26,13 @@
   <p class="principal">Bem vindo ao estudo sobre Políticas Públicas para o concurso nacional unificado (CNU). Aqui você vai aprender sobre conceitos, problemas, abordagens e muito mais!</p>
 
   <!--Matéria 1-->
-<article>
-  <h2>Conceitos de Políticas Públicas</h2>
+<article class="materia">
+  <!--Exemplo de class em um article, no css altera somente um article que é o novo "materia", não afeta os outros articles.-->
+  <h2 class="t1">Conceitos de Políticas Públicas</h2>
   <!--src = atributo, colocar o nome do seu arquivo-->
   <img src="conceito.jpg">
   <!--a para âncora, abaixo um link de referência para o usuário saber mais sobre-->
-  <a href="conceito.html">Saiba mais...</a>
+  <a class="botao" href="conceito.html">Saiba mais...</a>
 </article>
 
 <article>
@@ -56,8 +57,8 @@
 
 <!--Rodapé do site-->
 <footer>
-    <nav>
-    <ul>
+    <nav class="navegacao2">
+    <ul class="menu2">
       <li><a href="index.html">Início</a></li>
       <li><a href="materias.html">Matérias</a></li>
       <li><a href="contato.html">Contato</a></li>

@@ -1,4 +1,9 @@
-body{
+/* retira toda a margem do site se 0, não funciona pra todo comando.
+* {
+    margin: 0
+} */
+
+body{ /* altera todo o conteúdo do site (de maneira geral) */
     background-color: rgb(197, 139, 252);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
@@ -7,53 +12,95 @@ body{
     padding: 5px;
     margin: 10px;
 }
-body a{
-    color: rgb(68, 54, 160);
-    text-decoration: none;   
+main { /* altera todo o corpo do site (de maneira geral todo o conteúdo) */
+    padding: 10px;
 }
-main {
-    padding: 20px;
-}
-header {
+header { /* altera todo o cabeçalho */
     background-color: cornflowerblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: azure;
     padding: 20px;
 }
-header a {
+header a { /* altera todas as âncoras do cabeçalho */
     color: azure;
     text-decoration: none;
 }
-footer{
+.navegacao { /* altera toda a navegação do menu */
+    display: flex;
+}
+.menu { /* class que altera as configurações da lista */
+    display: flex; /* in line ou em qualquer outro*/
+    list-style: none;
+    margin-left: auto;
+    padding: 8px;
+}
+.menu a:hover { /*modifica as âncoras */
+    color: rgb(14, 14, 73)
+}
+.menu li{ /* altera a margem das listas */
+    margin-left: 20px;
+}
+article { /* altera todos os articles */
+    background-color: rgb(255, 212, 212);
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.materia { /* exemplo de class no article específico da matéria 1 */
+    background-color: rgb(162, 221, 107);
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.botao { /* exemplo de botão para uma âncora específica da matéria 1 */
+    background-color: rgb(19, 90, 245);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+}
+.t1 { /* class do título do article específico da matéria 1 */
+    text-decoration: overline;
+    color: rgb(14, 14, 73);
+}
+article a { /* altera todas as âncoras dos articles */
+    background-color: azure;
+    color: rgb(68, 54, 160);
+    padding: 8px;
+}
+li{ /* altera o conteúdo da lista, de todos os tópicos, mas in block*/
+    list-style: none;
+}
+.titulo { /* class do título principal do site */
+    text-decoration: underline;
+    color: rgb(14, 14, 73);
+}
+.principal { /* class do parágrafo principal do site */
+    font-style: italic;
+    font-size: 16px;
+    color: rgb(14, 14, 73);
+}
+footer { /* altera todo o rodapé */
     background-color: rgb(15, 62, 150);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: azure;
     padding: 20px;
 }
-footer a {
+footer a { /* altera todas as âncoras do rodapé */
     color: azure;
-    text-decoration: none; 
+    text-decoration: none;
 }
-article {
-    background-color: rgb(255, 212, 212);
-    padding: 2px;
-    margin-bottom: 15px;
-    text-align: justify;
+.navegacao2 { /* altera toda a navegação do menu */
+    display: flex;
 }
-article a {
-    background-color: azure;
-    color: rgb(68, 54, 160);
+.menu2 { /* class que altera as configurações da lista do rodapé*/
+    display: flex; /* in line ou em qualquer outro*/
+    margin-right: auto;
     padding: 8px;
 }
-li{
-    list-style: none;
+.menu2 li { /* altera a margem das listas */
+    margin-right: 20px;
 }
-.titulo {
-    text-decoration: underline;
-}
-.principal {
-    font-style: italic;
-    font-size: 16px;
+.menu2 a:hover {
+    color: cornflowerblue;
 }
