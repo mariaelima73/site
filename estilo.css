@@ -26,9 +26,9 @@ header a { /* altera todas as âncoras do cabeçalho */
     color: azure;
     text-decoration: none;
 }
-header img {
-    width: 40%;
-}
+/* header img {
+    width: 25%;
+}*/
 .navegacao { /* altera toda a navegação do menu */
     display: flex;
 }
@@ -51,7 +51,7 @@ header img {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
+    width: 400px;
     border-radius: 20px;
 }
 .materia img {
@@ -67,6 +67,9 @@ header img {
     display: inline-block;
     border-radius: 50px;
 }
+.botao:hover{
+    background-color: rgb(29, 151, 151);
+}
 .t1 { /* class do título do article específico da matéria 1 */
     text-decoration: overline;
     color: rgb(14, 14, 73);
@@ -76,8 +79,10 @@ article { /* altera todos os articles */
     padding: 10px;
     margin-bottom: 15px;
     text-align: justify;
-    width: 500px;
+    width: 400px;
     border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 article img {
     width: 100%;
@@ -115,7 +120,7 @@ footer a { /* altera todas as âncoras do rodapé */
     text-decoration: none;
 }
 footer img {
-    width: 40%;
+    width: 25%;
 }
 .navegacao2 { /* altera toda a navegação do menu */
     display: flex;
@@ -142,4 +147,9 @@ main a{
 }
 img {
     margin-bottom: 5px;
+}
+.grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
 }
