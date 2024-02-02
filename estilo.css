@@ -66,6 +66,8 @@ header a { /* altera todas as âncoras do cabeçalho */
     text-decoration: none;
     display: inline-block;
     border-radius: 50px;
+    border: none;
+    font-size: 15px;
 }
 .botao:hover{
     background-color: rgb(29, 151, 151);
@@ -145,11 +147,40 @@ main a{
     display: inline-block;
     border-radius: 50px;
 }
-img {
-    margin-bottom: 5px;
-}
 .grade {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 20px;
+}
+.rotulo {
+    display: block;
+    padding: 5px;
+}
+.campo {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 25px;
+    padding-left: 10px;
+    font-size: 14px;
+    border: none;
+    background-color: rgb(224, 247, 202);
+   /* border: 2px rgb(29, 151, 151) solid */
+}
+.contato {
+    background-color: rgb(162, 221, 107);
+    width: 400px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+textarea.campo {
+    height: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+.campo:focus {
+    outline: none;
+    background-color: rgb(162, 221, 107);
 }

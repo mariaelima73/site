@@ -12,19 +12,53 @@
 <header>
   <!--Menu de navegação-->
   <nav class="navegacao">
-    <img src="home.jpg" alt="logo" height="150" width="150">
-  <ul class="menu">
-    <li><a href="index.html">Início</a></li>
-    <li><a href="materias.html">Matérias</a></li>
-    <li><a href="contato.html">Contato</a></li>
-  </ul>
+    <img src="home.jpg" alt="logo" width="350px">
+    <ul class="menu">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="materias.html">Matérias</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
 </nav>
 </header>
 <!--Corpo do Site-->
 <main>
+  <img src="contato.jpg" width="250px">
   <h1 class="titulo">CONTATOS</h1>
-  <p class="principal">Bem vindo ao estudo sobre Políticas Públicas para o concurso nacional unificado (CNU). Aqui você vai aprender sobre conceitos, problemas, abordagens e muito mais!</p>
+  <p class="principal">Aqui estão os meios de comunicação que você pode falar conosco.</p>
 
+<!--Corpo do Formulário-->
+<form class="contato">
+<!--Campo nome-->
+  <label class="rotulo">
+      Nome
+    <input class="campo" type="text">
+  </label>
+<!--Campo email-->
+  <label class="rotulo">
+      E-mail
+    <input class="campo" type="email">
+  </label>
+<!--Campo assunto-->
+  <label class="rotulo">
+      Assunto
+    <select class="campo">
+      <option>Selecionar</option>
+      <option>Dúvidas</option>
+      <option>Sugestões</option>
+      <option>Críticas</option>
+    </select>
+  </label>
+<!--Campo Mensagem-->
+  <label class="rotulo">
+      Mensagem
+      <textarea class="campo"></textarea>
+  </label>
+<!--Botão enviar-->
+  <button class="botao">
+    Enviar
+  </button>
+
+</form>
   
 </main>
 
