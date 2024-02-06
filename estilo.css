@@ -18,7 +18,7 @@ main { /* altera todo o corpo do site (de maneira geral todo o conteúdo) */
 header { /* altera todo o cabeçalho */
     background-color: cornflowerblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     color: azure;
     padding: 20px;
 }
@@ -26,9 +26,9 @@ header a { /* altera todas as âncoras do cabeçalho */
     color: azure;
     text-decoration: none;
 }
-/* header img {
+header img {
     width: 25%;
-}*/
+}
 .navegacao { /* altera toda a navegação do menu */
     display: flex;
 }
