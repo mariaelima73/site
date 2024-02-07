@@ -29,6 +29,11 @@ header a { /* altera todas as âncoras do cabeçalho */
 header img {
     width: 25%;
 }
+.topo {
+    background-color: cornflowerblue;
+    padding: 20px;
+    font-size: 12px; /* alteração de 20 para 12 para res 320px */
+}
 .navegacao { /* altera toda a navegação do menu */
     display: flex;
 }
@@ -51,7 +56,7 @@ header img {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 320px;
     border-radius: 20px;
 }
 .materia img {
@@ -81,7 +86,7 @@ article { /* altera todos os articles */
     padding: 10px;
     margin-bottom: 15px;
     text-align: justify;
-    width: 400px;
+    width: 320px;
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -149,7 +154,7 @@ main a{
 }
 .grade {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 20px;
 }
 .rotulo {
