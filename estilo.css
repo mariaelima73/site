@@ -6,7 +6,7 @@
 body{ /* altera todo o conteúdo do site (de maneira geral) */
     background-color: rgb(197, 139, 252);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px; /* de 20 pra 10 */
+    font-size: 11px; /* de 20 pra 11 */
     color: rgb(14, 14, 73);
     padding: 5px;
     margin: 10px;
@@ -17,7 +17,7 @@ main { /* altera todo o corpo do site (de maneira geral todo o conteúdo) */
 header { /* altera todo o cabeçalho */
     background-color: cornflowerblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     color: azure;
     padding: 20px;
 }
@@ -26,7 +26,7 @@ header a { /* altera todas as âncoras do cabeçalho */
     text-decoration: none;
 }
 header img {
-    width: 15%; /* de 30 pra 15 */
+    width: 20%; /* de 30 pra 20 */
 }
 .topo {
     background-color: cornflowerblue;
@@ -35,6 +35,7 @@ header img {
 }
 .navegacao { /* altera toda a navegação do menu */
     display: flex;
+    align-items: center; /* alinha a imagem no topo com a lista */
 }
 .menu { /* class que altera as configurações da lista */
     display: flex; /* in line ou em qualquer outro*/
@@ -133,10 +134,11 @@ footer a { /* altera todas as âncoras do rodapé */
     text-decoration: none;
 }
 footer img {
-    width: 15%; /* de 30 pra 15 */
+    width: 20%; /* de 30 pra 20 */
 }
 .navegacao2 { /* altera toda a navegação do menu */
     display: flex;
+    align-items: center;
 }
 .menu2 { /* class que altera as configurações da lista do rodapé*/
     display: flex; /* in line ou em qualquer outro*/
@@ -180,7 +182,7 @@ main a{
 }
 .contato {
     background-color: rgb(162, 221, 107);
-    width: 400px;
+    max-width: 320px; /* de 400 para 320 para resp */
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -214,6 +216,8 @@ textarea.campo {
     }
     .grade {
         display: grid; /* colocado display: grid; para criar a grade em resp >= 720 */
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        gap: 20px; /* de 20 pra 10 */
     }
     .materia img {
         width: 100%;
@@ -222,9 +226,21 @@ textarea.campo {
         width: 100%;
     }
     header img {
-        width: 30%;
+        width: 300px;
     }
     footer img {
-        width: 30%;
+        width: 300px;
     }
+    .contato {
+        max-width: 400px
+    }
+    .materia {
+        max-width: 400px;
+    }
+}
+.imgprinc {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }

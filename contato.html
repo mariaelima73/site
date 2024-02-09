@@ -3,7 +3,7 @@
 <head>
   <!--Informações para o navegador, o usuário não vê-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
     <title>Políticas Públicas para o CNU</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
@@ -22,21 +22,21 @@
 </header>
 <!--Corpo do Site-->
 <main>
-  <img src="contato.jpg" width="250px">
+  <img class="imgprinc" src="contato.jpg">
   <h1 class="titulo">CONTATOS</h1>
   <p class="principal">Aqui estão os meios de comunicação que você pode falar conosco.</p>
-
+<h3>Os campos com * são de preenchimento obrigatório.</h3>
 <!--Corpo do Formulário-->
 <form class="contato">
 <!--Campo nome-->
   <label class="rotulo">
-      Nome
-    <input class="campo" type="text">
+      Nome*
+    <input required class="campo" type="text">
   </label>
 <!--Campo email-->
   <label class="rotulo">
-      E-mail
-    <input class="campo" type="email">
+      E-mail*
+    <input required class="campo" type="email">
   </label>
 <!--Campo assunto-->
   <label class="rotulo">
@@ -50,8 +50,8 @@
   </label>
 <!--Campo Mensagem-->
   <label class="rotulo">
-      Mensagem
-      <textarea class="campo"></textarea>
+      Mensagem*
+      <textarea required class="campo"></textarea>
   </label>
 <!--Botão enviar-->
   <button class="botao">
